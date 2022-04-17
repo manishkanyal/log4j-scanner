@@ -58,4 +58,6 @@ Example : ./log4jscan.py -u http://127.0.0.1:8080/ -id c9d9k5c2vtc00002me60grsw3
 
 ./log4jscan.py -l URLS.txt -id c9d9k5c2vtc00002me60grsw31ayyyyyb.interact.sh
 
+# Installing Requirements
 
+pip3 install -r requirement.txt
