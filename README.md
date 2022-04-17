@@ -2,20 +2,20 @@
 A Log4j vulnerability scanner is automated scanner to find log4j (CVE-2021-44228 and CVE_2021_45046) vulnerabilities in web applications.
 
 
-#Features
+# Features
 1- It supports multiple URL to perform scan
 2- It has payload that can bypass some WAF
 3- It supports GET and POST request
 4- It supports user payload and headers file
 5- It fuzzes POST data parameter as well as JSON parameter
 
-#Installing 
+# Installing 
 
 git clone https://github.com/google/log4jscanner.git
 cd log4j-scanner
 ./log4jscan.py -h
 
-#USAGE
+# USAGE
 
 Usage : ./log4jscan.py [options- URL/list_of_URL] [target_specification ] [options-custom_dns_callback_host] [id_of_custom_dns_callback_host]
 
@@ -44,11 +44,11 @@ optional arguments:
 
 Example : ./log4jscan.py -u http://127.0.0.1:8080/ -id c9d9k5c2vtc00002me60grsw31ayyyyyb.interact.sh
 
-#Scanning single url
+# Scanning single url
 
 ./log4jscan.py -u http://127.0.0.1:8080 -id c9d9k5c2vtc00002me60grsw31ayyyyyb.interact.sh
 
-#Scanning mulitple URL
+# Scanning mulitple URL
 
 ./log4jscan.py -l URLS.txt -id c9d9k5c2vtc00002me60grsw31ayyyyyb.interact.sh
 
