@@ -15,7 +15,7 @@ A Log4j vulnerability scanner is automated scanner to find log4j (CVE-2021-44228
 
 # Installing 
 
-git clone https://github.com/google/log4jscanner.git
+git clone https://github.com/manishkanyal/log4j-scanner.git
 cd log4j-scanner
 ./log4jscan.py -h
 
