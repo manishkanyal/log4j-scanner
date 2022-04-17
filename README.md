@@ -4,9 +4,13 @@ A Log4j vulnerability scanner is automated scanner to find log4j (CVE-2021-44228
 
 # Features
 1- It supports multiple URL to perform scan
+
 2- It has payload that can bypass some WAF
+
 3- It supports GET and POST request
+
 4- It supports user payload and headers file
+
 5- It fuzzes POST data parameter as well as JSON parameter
 
 # Installing 
